@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Github, ExternalLink } from 'lucide-react';
+import { Github, ExternalLink } from 'lucide-react';
 import { PROJECTS } from '../constants';
 
 const ProjectsSection: React.FC = () => {
@@ -14,7 +14,7 @@ const ProjectsSection: React.FC = () => {
 
            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {PROJECTS.map((project) => (
-                 <div key={project.id} className="group relative h-[380px] md:h-[450px] rounded-xl overflow-hidden border border-cyber-800 bg-cyber-900 transition-all duration-500 hover:border-cyber-primary/50 hover:shadow-[0_0_40px_rgba(0,240,255,0.15)]">
+                 <div key={project.id} className="group relative h-[380px] md:h-[400px] rounded-xl overflow-hidden border border-cyber-800 bg-cyber-900 transition-all duration-500 hover:border-cyber-primary/50 hover:shadow-[0_0_40px_rgba(0,240,255,0.15)]">
                     
                     {/* Background Image */}
                     <div className="absolute inset-0 z-0">
@@ -40,16 +40,18 @@ const ProjectsSection: React.FC = () => {
                            </p>
                        </div>
                        
-                       {/* <div className="flex gap-4 items-center opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition duration-300 delay-150 mt-2">
-                          {project.github && (
+                       <div className="flex gap-4 items-center opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition duration-300 delay-150 mt-2">
+                          {/* {project.github && (
                             <a href={project.github} className="p-2 rounded bg-cyber-800 hover:bg-cyber-primary hover:text-black text-white transition">
                                <Github className="w-5 h-5" />
                             </a>
-                          )}
-                          <button className="text-xs font-mono font-bold text-cyber-secondary flex items-center gap-2 hover:text-white transition uppercase tracking-wider">
+                          )} */}
+                          <a 
+                              href={project.link}
+                              className="text-xs font-mono font-bold text-cyber-secondary flex items-center gap-2 hover:text-white transition uppercase tracking-wider">
                              View Case Study <ExternalLink className="w-3 h-3" />
-                          </button>
-                       </div> */}
+                          </a>
+                       </div>
                     </div>
                  </div>
               ))}

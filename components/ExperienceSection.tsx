@@ -109,7 +109,7 @@ const ExperienceSection: React.FC = () => {
 
               {/* Infinite Loop Track */}
               <div className="flex animate-marquee gap-4 md:gap-8 group-hover:[animation-play-state:paused] px-8">
-                 {[...JOURNEY_IMAGES, ...JOURNEY_IMAGES, ...JOURNEY_IMAGES].map((img, idx) => (
+                 {[...JOURNEY_IMAGES, ...JOURNEY_IMAGES].map((img, idx) => (
                     <div 
                       key={idx} 
                       className="group/card relative w-[240px] h-[160px] md:w-[320px] md:h-[220px] flex-shrink-0 cursor-pointer transition-all duration-500 ease-out transform -skew-x-3 md:-skew-x-6 hover:skew-x-0 hover:scale-105 md:hover:scale-110 hover:z-30 perspective-1000"

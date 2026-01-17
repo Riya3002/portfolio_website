@@ -63,7 +63,7 @@ export const EDUCATION: Education[] = [
     degree: "B.E. in Electronics and Communication Engineering",
     institution: "UIET, Panjab University, Chandigarh",
     period: "Nov 2021 - June 2025",
-    gpa: "8.13",
+    gpa: "8.6",
     courses: ["Embedded Systems", "Operating Systems", "Control Systems", "Semiconductors", "Power Systems"]
   },
     {
@@ -90,7 +90,7 @@ export const PROJECTS: Project[] = [
     title: "Human Fall Detection System",
     description: "A wearable device for real-time fall detection and prevention, featuring multi-level alerts and data synchronization for emergency response. Integrated gyroscope and accelerometer data to detect sudden orientation changes.",
     tags: ["ESP32 & IoT", "MPU6050, BMP180,Hall Effect Sensor", "Mobile App"],
-    imageUrl: "https://images.unsplash.com/photo-1551718250-98a22f763cf5?auto=format&fit=crop&q=80&w=800",
+    imageUrl: "/humanfall2.png",
     link: "#",
     github: "#"
   },
@@ -99,8 +99,8 @@ export const PROJECTS: Project[] = [
     title: "Nano Navigator (Micromouse)",
     description: "An autonomous micromouse programmed to efficiently explore and solve intricate maze layouts. Implemented advanced control algorithms using cutting-edge sensors and precision motors.",
     tags: ["STM32F1xxx", " IR and Ultrasonic Sensors", "PID Control"," L293D  DC Motors","Buck/Boost Converters", "KiCad"],
-    imageUrl: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=800",
-    link: "#",
+    imageUrl: "/nanonavigator.jpg",
+    link: "https://github.com/Riya3002/Embedded_Projects/tree/main/nanonavigator_final",
     github: "#"
   },
   {
@@ -108,7 +108,7 @@ export const PROJECTS: Project[] = [
     title: "Faraday Station",
     description: "Prototype for wireless charging of moving electric vehicles using a chain of induction plates embedded under the road surface. Utilized copper inductive coils and efficient rectification circuits.",
     tags: ["Wireless Power Transfer", "Power Electronics", "Rectifiers & Inductive Coupling"],
-    imageUrl: "https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&q=80&w=800",
+    imageUrl: "/faraday.jpg",
     link: "#",
     github: "#"
   },
@@ -117,8 +117,8 @@ export const PROJECTS: Project[] = [
     title: "Bionic Prosthetic Arm",
     description: "A fully functional patient specific 3D printed transradial bionic prosthetic arm, capable of identifying gestures to be performed, through a hybrid signal acquisition system with EEG cap and EMG sensors",
     tags: ["ESP32", "EEG & EMG sensors", "Servo Motors"],
-    imageUrl: "https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&q=80&w=800",
-    link: "#",
+    imageUrl: "/dic2.jpg",
+    link: "https://dicpu.in/projects",
     github: "#"
   },
   {
@@ -126,8 +126,8 @@ export const PROJECTS: Project[] = [
     title: "Jugaad Robotics Club, UIET, Panjab University",
     description: "Led and built a modern, full-stack website for the university robotics club with responsive design, smooth animations, and backend integration.",
     tags: ["Next Js","Typescript", "framer motion & tailwind", "mongoDB"],
-    imageUrl: "https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&q=80&w=800",
-    link: "#",
+    imageUrl: "/jugaadweb.png",
+    link: "https://jugaadclub.in/",
     github: "#"
   }
 ];
@@ -151,7 +151,7 @@ export const EXPERIENCE: Experience[] = [
       "Performed system bring-up, signal validation, and robotic testing for reliable deployment."
 ],
     images: [
-      "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?auto=format&fit=crop&q=80&w=400",
+      "/accio.jpg",
       "https://images.unsplash.com/photo-1629739884942-8678d13afdd6?auto=format&fit=crop&q=80&w=400"
     ]
   },
@@ -171,7 +171,7 @@ export const EXPERIENCE: Experience[] = [
       "Designed custom PCBs and handled assembly, rework, soldering, and debugging.",
     ],
     images: [
-      "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?auto=format&fit=crop&q=80&w=400",
+      "/accio.jpg",
       "https://images.unsplash.com/photo-1629739884942-8678d13afdd6?auto=format&fit=crop&q=80&w=400"
     ]
   },
@@ -188,8 +188,8 @@ export const EXPERIENCE: Experience[] = [
       "Insights into TSMC's manufacturing processes."
     ],
     images: [
-      "https://images.unsplash.com/photo-1581092921461-eab62e97a782?auto=format&fit=crop&q=80&w=400",
-      "https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?auto=format&fit=crop&q=80&w=400"
+      "/1.jpg",
+      "/2.jpg"
     ]
   },
   {
@@ -206,7 +206,8 @@ export const EXPERIENCE: Experience[] = [
     "Developed an intuitive interface that increased new member sign-ups by 25% and attracts ~100 unique visitors per month."
     ],
     images: [
-      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400"
+      "/jugaad4.jpg",
+      "/jugaad.jpg"
     ]
   },
   {
@@ -218,7 +219,7 @@ export const EXPERIENCE: Experience[] = [
     description: "Designed PCBs for drones and components using KiCad. Created a GPS RTK module using ZED F9P for high-precision drone navigation.",
     highlights:[],
     images: [
-      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400"
+      "/pcb.png"
     ]
   },
   {
@@ -234,7 +235,8 @@ export const EXPERIENCE: Experience[] = [
     "Mentored 30+ students during an embedded systems summer training program.",
     ],
     images: [
-      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400"
+      "/dic.jpg",
+      "/dic2.jpg",
     ]
   }
 ];
@@ -370,11 +372,26 @@ export const AWARDS: Award[] = [
 
 // New Carousel Images representing the journey
 export const JOURNEY_IMAGES = [
-  "/1.jpg", // Robotics Lab
-  "/2.jpg", // Coding Screen
-  "/3.jpg", // Semiconductor Lab
-  "/4.jpg", // Electronics Board
-  "/5.jpg", // Drone/Hardware
-  "/6.jpg", // Workshop
-  "/9.jpg", // Conference/Events
+  "/1.jpg", 
+  "/teslacoil.jpg",
+  "/2.jpg", 
+  // "/3.jpg", 
+  "/5.jpg", 
+  "/6.jpg", 
+  "/jugaad5.jpg",
+  "/9.jpg", 
+  "/jugaad2.jpg",
+  "/nanonavigator.jpg",
+  "/4.jpg",
+  "/faradaystation.jpg",
+  "/10.jpg",
+  "/accio.jpg",
+  "/faraday.jpg",
+  "/dic.jpg",
+  "/jugaad.jpg",
+  "/dic2.jpg",
+  "/jugaad3.jpg",
+  "/jugaad4.jpg",
+  "/dic3.jpg",
+  "/jugaad6.jpg",
 ];
