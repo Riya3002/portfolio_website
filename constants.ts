@@ -151,8 +151,8 @@ export const EXPERIENCE: Experience[] = [
       "Performed system bring-up, signal validation, and robotic testing for reliable deployment."
 ],
     images: [
-      "/accio.jpg",
-      "https://images.unsplash.com/photo-1629739884942-8678d13afdd6?auto=format&fit=crop&q=80&w=400"
+      "/accio2.jpg",
+      "/accio.jpg"
     ]
   },
   {
@@ -172,7 +172,7 @@ export const EXPERIENCE: Experience[] = [
     ],
     images: [
       "/accio.jpg",
-      "https://images.unsplash.com/photo-1629739884942-8678d13afdd6?auto=format&fit=crop&q=80&w=400"
+      "/accio3.jpg"
     ]
   },
   {
@@ -219,7 +219,8 @@ export const EXPERIENCE: Experience[] = [
     description: "Designed PCBs for drones and components using KiCad. Created a GPS RTK module using ZED F9P for high-precision drone navigation.",
     highlights:[],
     images: [
-      "/pcb.png"
+      "/pcb.png",
+      "/menthosa.jpg"
     ]
   },
   {

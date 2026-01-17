@@ -64,7 +64,7 @@ const ExperienceSection: React.FC = () => {
                          {exp.images.map((img, i) => (
                             <div 
                               key={i} 
-                              className={`absolute top-0 left-0 w-full h-full p-3 bg-white shadow-2xl transform transition-transform duration-500 ${i === 0 ? 'rotate-[-3deg] z-10 group-hover:rotate-[-6deg] group-hover:translate-x-[-15px]' : 'rotate-[2deg] z-0 group-hover:rotate-[5deg] group-hover:translate-x-[15px]'}`}
+                              className={`absolute top-0 left-0 w-full h-full p-3 bg-white shadow-2xl transform transition-transform duration-500 ${i === 0 ? 'rotate-[-3deg] z-10 group-hover:rotate-[-4deg] group-hover:translate-x-[-145px] group-hover:translate-y-[30px] group-hover:scale-[0.53]' : 'rotate-[2deg] z-0 group-hover:rotate-[4deg] group-hover:scale-[1] group-hover:translate-x-[60px]'}`}
                             >
 
                                <div className="w-full h-full overflow-hidden bg-slate-200 relative">
