@@ -33,6 +33,7 @@
               'glitch-2': 'glitch-2 3s infinite linear alternate-reverse',
               'marquee': 'marquee 40s linear infinite',
               'scan': 'scan-vertical 1.5s linear infinite',
+              'animate-slide-left': 'slide-left 0.3s ease-out forwards',
             },
             keyframes: {
               'glitch-1': {
@@ -58,6 +59,10 @@
               'scan-vertical': {
                 '0%': { transform: 'translateY(-100%)' },
                 '100%': { transform: 'translateY(100%)' },
+              },
+              ' slide-left': {
+                  '0%' :{ transform: 'translateX(100%)' },
+                  '100%': { transform: 'translateX(0)'},
               }
             }
           }

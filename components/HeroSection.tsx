@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
         <LogicAnalyzer />
         
         <div className="container mx-auto px-6 relative z-10 grid md:grid-cols-2 gap-12 items-center">
-            <div className="order-2 md:order-1 pt-10 pl-20 md:pt-0">
+            <div className="order-2 md:order-1 pt-10 md:pl-8 lg:pl-20 md:pt-0">
                <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-cyber-900/80 border border-cyber-primary/30 text-cyber-secondary text-[10px] md:text-xs font-mono mb-6 backdrop-blur-sm">
                   <Wifi className="w-3 h-3 animate-pulse" />
                   <span>LEARNING_STRENGTH: 100%</span>

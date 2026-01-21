@@ -1,8 +1,11 @@
 import React from 'react';
 import { Mail, Github, Linkedin } from 'lucide-react';
 import { PERSONAL_INFO } from '../constants';
+import { useState } from 'react';
+import ContactPanel from './contactpanel';
 
 const ContactSection: React.FC = () => {
+  const [open, setOpen] = useState(false);
   return (
       <section id="contact" className="py-16 md:py-24 border-t border-cyber-800 relative bg-cyber-950 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-cyber-900 via-cyber-950 to-cyber-950 opacity-50"></div>
@@ -16,13 +19,15 @@ const ContactSection: React.FC = () => {
           </p>
           
           <button
-            onClick={() => window.$crisp?.push(["do", "chat:open"])}
+           onClick={() => {
+              setOpen(true);
+            }}
             className="inline-flex items-center gap-3 px-8 py-4 md:px-10 md:py-5 bg-cyber-primary text-black font-bold font-mono text-base md:text-lg rounded-sm hover:bg-white transition hover:shadow-[0_0_30px_rgba(6,182,212,0.6)]"
           >
             <Mail className="w-5 h-5" />
             SEND_PACKET
           </button>
-
+          <ContactPanel open={open} onClose={() => setOpen(false)} />
           <div className="mt-16 md:mt-24 pt-8 border-t border-cyber-800 flex flex-col md:flex-row justify-between items-center text-slate-600 text-[10px] md:text-xs font-mono">
             <p>© {new Date().getFullYear()} {PERSONAL_INFO.name} // SYSTEM_NORMAL</p>
             <div className="flex gap-8 mt-4 md:mt-0">
